@@ -27,6 +27,7 @@
     --website-text-color: #34495e;
     --header-color: #3498db;
     --navigation-items-color: #f1c40f;
+    --navigation-items-text-color: #F7F7F0;
 }
 
 /* Global */
@@ -140,7 +141,7 @@ p {
     margin: 2px;
 
     line-height: 30px;
-    color: white;
+    color: var(--navigation-items-text-color);
     font-size: 1em;
     text-align: center;
     flex-grow: 1;
